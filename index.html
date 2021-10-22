@@ -38,8 +38,46 @@
     </div>
 </div>
 <!--END NAVIGATION-->
-
-<!--FOOTER-->
+<!--Content-->
+<form class="w-full max-w-sm">
+    <div class="md:flex md:items-center mb-6">
+        <div class="md:w-1/3">
+            <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="inline-full-name">
+                Full Name
+            </label>
+        </div>
+        <div class="md:w-2/3">
+            <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-full-name" type="text" value="Jane Doe">
+        </div>
+    </div>
+    <div class="md:flex md:items-center mb-6">
+        <div class="md:w-1/3">
+            <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="inline-password">
+                Password
+            </label>
+        </div>
+        <div class="md:w-2/3">
+            <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-password" type="password" placeholder="******************">
+        </div>
+    </div>
+    <div class="md:flex md:items-center mb-6">
+        <div class="md:w-1/3"></div>
+        <label class="md:w-2/3 block text-gray-500 font-bold">
+            <input class="mr-2 leading-tight" type="checkbox">
+            <span class="text-sm">
+        Send me your newsletter!
+      </span>
+        </label>
+    </div>
+    <div class="md:flex md:items-center">
+        <div class="md:w-1/3"></div>
+        <div class="md:w-2/3">
+            <button class="shadow bg-blue-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
+                Sign Up
+            </button>
+        </div>
+    </div>
+</form>
 <footer class="py-6 dark:bg-coolGray-800 dark:text-coolGray-50 fixed bottom-0 w-screen">
     <div class="container px-6 mx-auto space-y-6 divide-y divide-gray-400 md:space-y-12 divide-opacity-50">
         <div class="grid grid-cols-12">
@@ -94,17 +132,19 @@
                 </ul>
             </div>
         </div>
+        <!--END CONTENT-->
+        <!--FOOTER-->
         <div class="grid justify-center pt-6 lg:justify-between">
             <div class="flex flex-col self-center text-sm text-center md:block lg:col-start-1 md:space-x-6">
                 <span>©2021 All rights reserved</span>
                 <a href="#">
                     <span>Privacy policy</span>
                 </a>
-                <a href="#">
-                    <span>Terms of service</span>
-                </a>
             </div>
             <div class="flex justify-center pt-4 space-x-4 lg:pt-0 lg:col-end-13">
+                <a href="#" class="">
+                    <span class="lg:justify-end">Connect with us: </span>
+                </a>
                 <a href="#" title="Email" class="flex items-center justify-center w-10 h-10 rounded-full dark:bg-violet-400 dark:text-coolGray-900">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
                         <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
